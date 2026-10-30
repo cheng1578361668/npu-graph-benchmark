@@ -1,3 +1,0 @@
-[2026-10-30-08:11:30.331] [INFO] [AscendProfiler_KernelViewParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2_retry/2.15.0/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_2083415_20261030081118546_ascend_pt/logs/profiler_20261030081130_2135855_KernelViewParser.log
-[2026-10-30-08:11:30.332] [INFO] [AscendProfiler_KernelViewParser:45] KernelViewParser start.
-[2026-10-30-08:11:30.778] [INFO] [AscendProfiler_KernelViewParser:53] KernelViewParser finish.

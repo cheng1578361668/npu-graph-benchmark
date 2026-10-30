@@ -1,3 +1,0 @@
-[2026-10-28-09:37:17.903] [INFO] [AscendProfiler_IntegrateParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/eager/hostname-mabf6.foreman.pxe_396561_20261028093703966_ascend_pt/logs/profiler_20261028093717_397529_IntegrateParser.log
-[2026-10-28-09:37:17.904] [INFO] [AscendProfiler_IntegrateParser:37] IntegrateParser start.
-[2026-10-28-09:37:18.240] [INFO] [AscendProfiler_IntegrateParser:46] IntegrateParser finish.

@@ -1,3 +1,0 @@
-[2026-10-29-00:54:08.896] [INFO] [AscendProfiler_OperatorViewParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_inference/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_830094_20261029005401603_ascend_pt/logs/profiler_20261029005408_842119_OperatorViewParser.log
-[2026-10-29-00:54:08.900] [INFO] [AscendProfiler_OperatorViewParser:30] OperatorViewParser start.
-[2026-10-29-00:54:10.012] [INFO] [AscendProfiler_OperatorViewParser:39] OperatorViewParser finish.

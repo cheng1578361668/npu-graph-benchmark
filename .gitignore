@@ -1,0 +1,10 @@
+**/cache/
+**/PROF_*/
+**/mindstudio_profiler_log/
+**/mindstudio_profiler_output/
+**/FRAMEWORK/
+**/device_7/
+**/host/
+trace_view.json
+msprof_*.json
+profiler_*.log

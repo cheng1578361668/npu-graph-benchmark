@@ -1,3 +1,0 @@
-[2026-10-30-06:58:01.437] [INFO] [AscendProfiler_TracePreParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2_retry/2.14.0/effect_train/profile/DistilBertForMaskedLM/eager/hostname-mabf6.foreman.pxe_2000718_20261030065756915_ascend_pt/logs/profiler_20261030065801_2001613_TracePreParser.log
-[2026-10-30-06:58:01.438] [INFO] [AscendProfiler_TracePreParser:36] TracePreParser start.
-[2026-10-30-06:58:04.774] [INFO] [AscendProfiler_TracePreParser:50] TracePreParser finish.

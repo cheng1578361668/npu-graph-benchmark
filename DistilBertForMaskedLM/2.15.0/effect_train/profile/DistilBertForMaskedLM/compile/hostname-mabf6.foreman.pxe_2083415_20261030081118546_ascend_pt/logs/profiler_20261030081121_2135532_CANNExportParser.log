@@ -1,3 +1,0 @@
-[2026-10-30-08:11:21.385] [INFO] [AscendProfiler_CANNExportParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2_retry/2.15.0/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_2083415_20261030081118546_ascend_pt/logs/profiler_20261030081121_2135532_CANNExportParser.log
-[2026-10-30-08:11:21.386] [INFO] [AscendProfiler_CANNExportParser:58] CANNExportParser start.
-[2026-10-30-08:11:29.445] [INFO] [AscendProfiler_CANNExportParser:107] CANNExportParser finish.

@@ -1,3 +1,0 @@
-[2026-10-28-09:37:18.230] [INFO] [AscendProfiler_CommunicationParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/eager/hostname-mabf6.foreman.pxe_396561_20261028093703966_ascend_pt/logs/profiler_20261028093718_397539_CommunicationParser.log
-[2026-10-28-09:37:18.230] [INFO] [AscendProfiler_CommunicationParser:66] CommunicationParser start.
-[2026-10-28-09:37:18.247] [INFO] [AscendProfiler_CommunicationParser:75] CommunicationParser finish.

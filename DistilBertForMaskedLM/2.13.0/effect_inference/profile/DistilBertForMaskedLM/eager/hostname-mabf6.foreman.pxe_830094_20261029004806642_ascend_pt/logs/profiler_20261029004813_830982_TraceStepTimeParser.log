@@ -1,3 +1,0 @@
-[2026-10-29-00:48:13.950] [INFO] [AscendProfiler_TraceStepTimeParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_inference/profile/DistilBertForMaskedLM/eager/hostname-mabf6.foreman.pxe_830094_20261029004806642_ascend_pt/logs/profiler_20261029004813_830982_TraceStepTimeParser.log
-[2026-10-29-00:48:13.951] [INFO] [AscendProfiler_TraceStepTimeParser:169] TraceStepTimeParser start.
-[2026-10-29-00:48:14.767] [INFO] [AscendProfiler_TraceStepTimeParser:177] TraceStepTimeParser finish.
