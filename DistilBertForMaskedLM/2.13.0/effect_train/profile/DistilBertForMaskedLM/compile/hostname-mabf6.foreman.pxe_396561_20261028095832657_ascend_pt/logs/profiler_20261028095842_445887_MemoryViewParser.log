@@ -1,0 +1,3 @@
+[2026-10-28-09:58:42.969] [INFO] [AscendProfiler_MemoryViewParser:97] Profiler logger initialized at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/logs/profiler_20261028095842_445887_MemoryViewParser.log
+[2026-10-28-09:58:42.970] [INFO] [AscendProfiler_MemoryViewParser:78] MemoryViewParser start.
+[2026-10-28-09:58:42.974] [INFO] [AscendProfiler_MemoryViewParser:89] MemoryViewParser finish.

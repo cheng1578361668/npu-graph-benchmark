@@ -1,0 +1,164 @@
+[
+  {
+    "label": "2.13_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 39.068282393272966,
+        "median_ms": 38.98834000574425,
+        "min_ms": 38.33446995122358,
+        "max_ms": 40.182430006098,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 21.069031998049468,
+        "median_ms": 21.009840012993664,
+        "min_ms": 20.813059993088245,
+        "max_ms": 21.486540033947676,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.8542988779403742,
+    "latency_reduction_percent": 46.07126111672299,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.13_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 10.440057199448347,
+        "median_ms": 10.379169951193035,
+        "min_ms": 10.315240011550486,
+        "max_ms": 11.546509980689734,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 3.9411215973086655,
+        "median_ms": 3.9167400100268424,
+        "min_ms": 3.6112599773332477,
+        "max_ms": 4.284619993995875,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 2.649006619480533,
+    "latency_reduction_percent": 62.24999995673477,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.14_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.14.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 36.245977599173784,
+        "median_ms": 36.105089995544404,
+        "min_ms": 35.779940022621304,
+        "max_ms": 38.050349976401776,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 18.950256798416376,
+        "median_ms": 18.922179995570332,
+        "min_ms": 18.762880004942417,
+        "max_ms": 19.238040025811642,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.9126905764254745,
+    "latency_reduction_percent": 47.7176281242078,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.14_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.14.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 10.311869601719081,
+        "median_ms": 10.248449980281293,
+        "min_ms": 10.190260014496744,
+        "max_ms": 10.591690021101385,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 3.380987597629428,
+        "median_ms": 3.3849100000225008,
+        "min_ms": 3.328290011268109,
+        "max_ms": 3.4226099960505962,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 3.0499578315369233,
+    "latency_reduction_percent": 67.21266144535238,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.15_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.15.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 35.546766398474574,
+        "median_ms": 36.21933999238536,
+        "min_ms": 33.471399976406246,
+        "max_ms": 37.084840005263686,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 20.064131205435842,
+        "median_ms": 19.86053999280557,
+        "min_ms": 19.23905999865383,
+        "max_ms": 23.057110025547445,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.771657393709832,
+    "latency_reduction_percent": 43.555678228169704,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.15_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.15.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 9.226291608065367,
+        "median_ms": 9.220010018907487,
+        "min_ms": 9.096449997741729,
+        "max_ms": 9.377380018122494,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 3.0257980013266206,
+        "median_ms": 3.0187899828888476,
+        "min_ms": 2.916899975389242,
+        "max_ms": 3.308040031697601,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 3.0492093669241047,
+    "latency_reduction_percent": 67.20461340413789,
+    "pass_accuracy_seen": true
+  }
+]

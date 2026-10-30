@@ -1,0 +1,414 @@
+2026-10-28 09:58:37 [INFO] [445753] [445753] [export_manager.cpp:107] Start to load data!
+2026-10-28 09:58:37 [INFO] [445753] [445753] [export_manager.cpp:210] The report parameter is not used.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.cpp:37] DDR Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445763] [data_processor.cpp:37] NPU_MEM Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.cpp:37] CCU_MISSION Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445760] [data_processor.cpp:37] NPU_MODULE_MEM Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.cpp:37] MEMCPY_INFO Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445758] [data_processor.cpp:37] PCIE Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/ccu_add_info.db.
+2026-10-28 09:58:37 [INFO] [445753] [445758] [pcie_processor.cpp:51] PCIeProcessor Process, dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445761] [data_processor.cpp:37] API Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/ccu_add_info.db.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_assembler.cpp:1555] Begin to save DB:HOST_INFO data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [data_processor.cpp:37] ACC_PMU Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.cpp:37] SOC Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445763] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/npu_mem.db.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [data_processor.h:85] Save NPU_MEM data into dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445763] [data_processor.h:88] NPU_MEM no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445763] [process_control.cpp:331] Level[0]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445763] [data_processor.cpp:37] AICORE_FREQ Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/acc_pmu.db.
+2026-10-28 09:58:37 [WARN] [445753] [445760] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/npu_module_mem.db.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [data_processor.h:85] Save ACC_PMU data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445760] [data_processor.h:85] Save NPU_MODULE_MEM data into dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.h:88] ACC_PMU no data to inject to dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445760] [data_processor.h:88] NPU_MODULE_MEM no data to inject to dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445755] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/soc_profiler.db.
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/ddr.db.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [process_control.cpp:331] Level[1]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/ccu.db.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_assembler.h:59] DBAssembler Save HOST_INFO Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [data_processor.cpp:37] QOS Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.h:85] Save DDR data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.h:73] There are 0 records before CCU_MISSION data filtering, filterTime is 1793181512929031000.
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.h:88] DDR no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445760] [process_control.cpp:331] Level[2]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.cpp:57] Start create HOST_INFO, sql is CREATE TABLE IF NOT EXISTS HOST_INFO (hostUid TEXT, hostName TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.h:85] Save SOC data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.h:78] There are 0 records after CCU_MISSION data filtering.
+2026-10-28 09:58:37 [INFO] [445753] [445760] [data_processor.cpp:37] LLC Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.h:85] Save CCU_MISSION data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[3]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.h:88] CCU_MISSION no data to inject to dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445755] [data_processor.h:88] SOC no data to inject to dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.cpp:67] Check MemcpyInfo not exists
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[4]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.cpp:37] NIC Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.cpp:37] MC2_COMM_INFO Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445755] [process_control.cpp:331] Level[5]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445761] [data_processor.cpp:71] Check /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/api_event.db and ApiData success.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/mc2_comm_info.db.
+2026-10-28 09:58:37 [WARN] [445753] [445758] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/pcie.db.
+2026-10-28 09:58:37 [INFO] [445753] [445761] [db_runner.h:79] Start query data
+2026-10-28 09:58:37 [INFO] [445753] [445758] [data_processor.h:85] Save PCIE data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[6]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.cpp:37] CPU_USAGE Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445758] [data_processor.h:88] PCIE no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.cpp:37] UB Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[7]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/qos.db.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [host_usage_processor.cpp:27] Start process CPU_USAGE.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.cpp:37] NETDEV_STATS Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445762] [data_processor.h:85] Save QOS data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445758] [process_control.cpp:331] Level[8]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.h:88] QOS no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445762] [process_control.cpp:331] Level[9]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445758] [data_processor.cpp:37] DPU Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445758] [dpu_processor.cpp:32] Start DPU Processor
+2026-10-28 09:58:37 [INFO] [445753] [445762] [data_processor.cpp:37] MSTX Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445763] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/freq.db.
+2026-10-28 09:58:37 [WARN] [445753] [445763] [aicore_freq_processor.cpp:108] Original data is empty. DBPath is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/freq.db
+2026-10-28 09:58:37 [INFO] [445753] [445763] [aicore_freq_processor.cpp:136] AicoreFreqProcessor FormatData.
+2026-10-28 09:58:37 [WARN] [445753] [445755] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/host_cpu_usage.db.
+2026-10-28 09:58:37 [WARN] [445753] [445760] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/llc.db.
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/nic.db.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [process_control.cpp:331] Level[10]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445760] [data_processor.h:85] Save LLC data into dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/nic.db.
+2026-10-28 09:58:37 [WARN] [445753] [445760] [data_processor.h:88] LLC no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.cpp:37] OSRT_API Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445760] [data_processor.h:85] Save LLC data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445755] [host_usage_processor.cpp:27] Start process OSRT_API.
+2026-10-28 09:58:37 [WARN] [445753] [445760] [data_processor.h:88] LLC no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[11]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/netdev_stats.db.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.h:85] Save NETDEV_STATS data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.cpp:37] HBM Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445763] [aicore_freq_processor.cpp:145] freq original data is empty, it will use default freq.
+2026-10-28 09:58:37 [INFO] [445753] [445760] [process_control.cpp:331] Level[12]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.h:88] NETDEV_STATS no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445763] [data_processor.h:85] Save AICORE_FREQ data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[13]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445760] [data_processor.cpp:37] UNIFIED_PMU Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.cpp:37] DEVICE_MSTX Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.cpp:70] create HOST_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.h:61] Start insert data to HOST_INFO
+2026-10-28 09:58:37 [INFO] [445753] [445763] [process_control.cpp:331] Level[14]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/msproftx.db.
+2026-10-28 09:58:37 [WARN] [445753] [445755] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/host_runtime_api.db.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_assembler.cpp:1555] Begin to save DB:NPU_INFO data.
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/msproftx.db.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [process_control.cpp:331] Level[15]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445762] [msproftx_host_processor.cpp:83] msprofTx in /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH is not exists, return
+2026-10-28 09:58:37 [WARN] [445753] [445758] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/dpu.db.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.cpp:37] NETWORK_USAGE Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445760] [unified_pmu_processor.cpp:308] SampleBasedProcess, dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/hbm.db.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [process_control.cpp:331] Level[16]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.h:85] Save HBM data into dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445758] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/dpu.db.
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.h:88] HBM no data to inject to dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445758] [dpu_processor.cpp:51] No dpu data found.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [host_usage_processor.cpp:27] Start process NETWORK_USAGE.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [data_processor.cpp:37] SIO Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445760] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/ai_vector_core.db.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.h:85] Save HBM data into dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/ub.db.
+2026-10-28 09:58:37 [INFO] [445753] [445758] [process_control.cpp:331] Level[17]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.h:88] HBM no data to inject to dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445760] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/aicore.db.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:85] Save UB data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445760] [unified_pmu_processor.cpp:350] There is no db to export, prof path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[18]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445758] [db_assembler.cpp:1555] Begin to save DB:META_DATA data.
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.h:88] UB no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.cpp:37] DISK_USAGE Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445758] [db_assembler.h:59] DBAssembler Save META_DATA Data.
+2026-10-28 09:58:37 [INFO] [445753] [445760] [process_control.cpp:331] Level[19]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445754] [host_usage_processor.cpp:27] Start process DISK_USAGE.
+2026-10-28 09:58:37 [INFO] [445753] [445758] [db_runner.cpp:57] Start create META_DATA, sql is CREATE TABLE IF NOT EXISTS META_DATA (name TEXT, value TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_assembler.h:59] DBAssembler Save NPU_INFO Data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[20]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_assembler.cpp:1555] Begin to save DB:SESSION_TIME_INFO data.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.cpp:57] Start create NPU_INFO, sql is CREATE TABLE IF NOT EXISTS NPU_INFO (id INTEGER, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.cpp:37] ROCE Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445755] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/host_network_usage.db.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/step_trace.db.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.h:72] insert data to HOST_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445755] [process_control.cpp:331] Level[21]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.h:85] Save TASK data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.cpp:37] TASK Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.h:88] TASK no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[22]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/host_disk_usage.db.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.cpp:37] MEM_USAGE Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445756] [process_control.cpp:331] Level[23]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [host_usage_processor.cpp:27] Start process MEM_USAGE.
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_assembler.h:59] DBAssembler Save SESSION_TIME_INFO Data.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [data_processor.cpp:37] HASH_INIT Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.cpp:57] Start create SESSION_TIME_INFO, sql is CREATE TABLE IF NOT EXISTS SESSION_TIME_INFO (startTimeNs INTEGER, endTimeNs INTEGER);.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[24]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445756] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/ge_logic_stream_info.db.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [data_processor.cpp:37] LOW_POWER Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445756] [hash_init_processor.cpp:68] Init Hash data, dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/roce.db.
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/sio.db.
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/roce.db.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [data_processor.h:85] Save SIO data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[25]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445762] [data_processor.h:88] SIO no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.cpp:37] HCCS Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445762] [process_control.cpp:331] Level[26]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.cpp:1555] Begin to save DB:ENUM data.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/host_mem_usage.db.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.cpp:406] EnumProcessor Process.
+2026-10-28 09:58:37 [WARN] [445753] [445754] [low_power_processor.cpp:35] This platformVersion: 5 does not support the processing of low power data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_OVERLAP_ANALYSIS_TYPE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[27]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_OVERLAP_ANALYSIS_TYPE, sql is CREATE TABLE IF NOT EXISTS ENUM_OVERLAP_ANALYSIS_TYPE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:NPU_MEM data.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:647] NpuMem data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[28]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:ACC_PMU data.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:317] Acc pmu data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[29]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:NPU_MODULE_MEM data.
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/hccs.db.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:720] NpuModuleMem data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[30]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445758] [db_runner.cpp:70] create META_DATA success
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:85] Save HCCS data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:DDR data.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[31]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:368] DDR data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.cpp:1555] Begin to save DB:CCU_MISSION data.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.cpp:71] Check /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/ascend_task.db and AscendTask success.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[32]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:SOC data.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:790] Soc data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[33]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.h:88] HCCS no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:MEMCPY_INFO data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:85] Save HCCS data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445758] [db_runner.h:61] Start insert data to META_DATA
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:194] MemcpyInfo data not exist.
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.h:88] HCCS no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[34]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [db_assembler.cpp:1406] CCU mission data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:PCIE data.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [data_processor.cpp:71] Check /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/ge_hash.db and GeHashInfo success.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:748] PCIe data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[35]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445755] [db_runner.h:79] Start query data
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.h:79] Start query data
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.cpp:1555] Begin to save DB:QOS data.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[36]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445757] [db_assembler.cpp:1227] QOS data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.cpp:1555] Begin to save DB:CPU_USAGE data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[37]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [db_assembler.cpp:1072] Cpu usage data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:NIC data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[38]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:949] SysIO NIC data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.cpp:1555] Begin to save DB:LLC data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[39]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445757] [db_assembler.cpp:526] LLC data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:NETDEV_STATS data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[40]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:477] NetDevStats data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.cpp:1555] Begin to save DB:OSRT_API data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[41]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445757] [db_assembler.cpp:1181] OS runtime api data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:MSTX data.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[42]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:568] MsprofTx data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.cpp:1555] Begin to save DB:DPU data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[43]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [db_assembler.cpp:1274] Can't get dpuData from dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:HBM data.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[44]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:422] HBM data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.cpp:1555] Begin to save DB:SAMPLE_PMU_SUMMARY data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[45]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [db_assembler.cpp:1049] UnifiedSampleSummaryPmu data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:SAMPLE_PMU_TIMELINE data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[46]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:1022] UnifiedSampleTimelinePmu data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.cpp:1555] Begin to save DB:TASK_PMU_INFO data.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[47]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445757] [db_assembler.cpp:995] unifiedTaskPmuData data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.cpp:1555] Begin to save DB:UB data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[48]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [db_assembler.cpp:1380] UB data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:NETWORK_USAGE data.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[49]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:1160] Host network usage data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.cpp:1555] Begin to save DB:DISK_USAGE data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[50]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445754] [db_assembler.cpp:1138] Host disk usage data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:ROCE data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[51]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:949] SysIO ROCE data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.h:90] Query data success: SELECT hash_key, hash_value FROM GeHashInfo
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[52]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.cpp:1555] Begin to save DB:SIO data.
+2026-10-28 09:58:37 [WARN] [445753] [445757] [db_assembler.cpp:1348] SIO data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:MEM_USAGE data.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[53]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:1117] Host mem usage data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.cpp:1555] Begin to save DB:AICORE_FREQ data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[54]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_assembler.h:59] DBAssembler Save AICORE_FREQ Data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.cpp:1555] Begin to save DB:HCCS data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[55]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_runner.cpp:57] Start create AICORE_FREQ, sql is CREATE TABLE IF NOT EXISTS AICORE_FREQ (deviceId INTEGER, timestampNs NUMERIC, freq INTEGER, dieId NUMERIC);.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [process_control.cpp:331] Level[56]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445757] [db_assembler.cpp:447] HCCS data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.cpp:37] NPU_OP_MEM Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445756] [data_processor.cpp:37] COMPUTE_TASK_INFO Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[57]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445759] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/task_memory.db.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.cpp:37] COMMUNICATION Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[58]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:NPU_OP_MEM data.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:690] NpuOpMem data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[59]Release Data Types: 
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/hccl_single_device.db.
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.cpp:50] Can't find the db, the path is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/device_7/sqlite/hccl_single_device.db.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:73] There are 0 records before COMMUNICATION_TASK_INFO data filtering, filterTime is 1793181512929031000.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [data_processor.cpp:71] Check /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/sqlite/ge_info.db and TaskInfo success.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:78] There are 0 records after COMMUNICATION_TASK_INFO data filtering.
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.h:79] Start query data
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:73] There are 0 records before COMMUNICATION_TASK_INFO data filtering, filterTime is 1793181512929031000.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:78] There are 0 records after COMMUNICATION_TASK_INFO data filtering.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:85] Save COMMUNICATION_TASK_INFO data into dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.h:88] COMMUNICATION_TASK_INFO no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445757] [data_processor.h:85] Save COMMUNICATION_OP data into dataInventory
+2026-10-28 09:58:37 [WARN] [445753] [445757] [data_processor.h:88] COMMUNICATION_OP no data to inject to dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[60]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:COMMUNICATION data.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:237] Communication op data not exist.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [db_assembler.cpp:288] Communication task data not exist.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[61]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.cpp:70] create SESSION_TIME_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.h:61] Start insert data to SESSION_TIME_INFO
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.h:72] insert data to SESSION_TIME_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445760] [process_control.cpp:331] Level[62]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_runner.cpp:70] create AICORE_FREQ success
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_runner.h:61] Start insert data to AICORE_FREQ
+2026-10-28 09:58:37 [INFO] [445753] [445754] [db_runner.h:72] insert data to AICORE_FREQ success
+2026-10-28 09:58:37 [INFO] [445753] [445754] [process_control.cpp:331] Level[63]Release Data Types: St6vectorIN8Analysis6Domain12LowPowerDataESaIS2_EE 
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.cpp:70] create NPU_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.h:61] Start insert data to NPU_INFO
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_OVERLAP_ANALYSIS_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_OVERLAP_ANALYSIS_TYPE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_OVERLAP_ANALYSIS_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_HCCL_RDMA_TYPE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_HCCL_RDMA_TYPE, sql is CREATE TABLE IF NOT EXISTS ENUM_HCCL_RDMA_TYPE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_HCCL_RDMA_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_HCCL_RDMA_TYPE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_HCCL_RDMA_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_MSTX_EVENT_TYPE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_MSTX_EVENT_TYPE, sql is CREATE TABLE IF NOT EXISTS ENUM_MSTX_EVENT_TYPE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_MSTX_EVENT_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_MSTX_EVENT_TYPE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_MSTX_EVENT_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_HCCL_TRANSPORT_TYPE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_HCCL_TRANSPORT_TYPE, sql is CREATE TABLE IF NOT EXISTS ENUM_HCCL_TRANSPORT_TYPE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_HCCL_TRANSPORT_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_HCCL_TRANSPORT_TYPE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_HCCL_TRANSPORT_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_HCCL_LINK_TYPE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_HCCL_LINK_TYPE, sql is CREATE TABLE IF NOT EXISTS ENUM_HCCL_LINK_TYPE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_HCCL_LINK_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_HCCL_LINK_TYPE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_HCCL_LINK_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_MEMCPY_OPERATION Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_MEMCPY_OPERATION, sql is CREATE TABLE IF NOT EXISTS ENUM_MEMCPY_OPERATION (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_MEMCPY_OPERATION success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_MEMCPY_OPERATION
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_MEMCPY_OPERATION success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_HCCL_DATA_TYPE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_HCCL_DATA_TYPE, sql is CREATE TABLE IF NOT EXISTS ENUM_HCCL_DATA_TYPE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_HCCL_DATA_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_HCCL_DATA_TYPE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_HCCL_DATA_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_MODULE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_MODULE, sql is CREATE TABLE IF NOT EXISTS ENUM_MODULE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_MODULE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_MODULE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_MODULE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_assembler.h:59] DBAssembler Save ENUM_API_TYPE Data.
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:57] Start create ENUM_API_TYPE, sql is CREATE TABLE IF NOT EXISTS ENUM_API_TYPE (id INTEGER PRIMARY KEY, name TEXT);.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.h:72] insert data to NPU_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_assembler.h:59] DBAssembler Save RANK_DEVICE_MAP Data.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.cpp:57] Start create RANK_DEVICE_MAP, sql is CREATE TABLE IF NOT EXISTS RANK_DEVICE_MAP (rankId INTEGER, deviceId INTEGER);.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.cpp:70] create RANK_DEVICE_MAP success
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.h:61] Start insert data to RANK_DEVICE_MAP
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.h:72] insert data to RANK_DEVICE_MAP success
+2026-10-28 09:58:37 [INFO] [445753] [445763] [process_control.cpp:331] Level[64]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445758] [db_runner.h:72] insert data to META_DATA success
+2026-10-28 09:58:37 [INFO] [445753] [445758] [process_control.cpp:331] Level[65]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.cpp:70] create ENUM_API_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:61] Start insert data to ENUM_API_TYPE
+2026-10-28 09:58:37 [INFO] [445753] [445762] [db_runner.h:72] insert data to ENUM_API_TYPE success
+2026-10-28 09:58:37 [INFO] [445753] [445762] [process_control.cpp:331] Level[66]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445755] [db_runner.h:90] Query data success: SELECT a.start_time, a.duration, a.model_id, a.index_id, a.stream_id, a.task_id, a.context_id,a.batch_id, a.connection_id, a.host_task_type, a.device_task_type FROM AscendTask a WHERE a.device_task_type != 'UNKNOWN'
+2026-10-28 09:58:37 [INFO] [445753] [445756] [db_runner.h:90] Query data success: SELECT hashid, model_id, op_name, stream_id, task_id, block_num, mix_block_num, task_type, op_type, op_flag, batch_id, IFNULL(input_formats, 'NULL'), IFNULL(input_data_types, 'NULL'), IFNULL(input_shapes, 'NULL'), IFNULL(output_formats, 'NULL'), IFNULL(output_data_types, 'NULL'), IFNULL(output_shapes, 'NULL'), device_id, context_id, (case when op_state is 'N/A' then 'N/A' when op_state is '1' then 'dynamic' when op_state is '0' then 'static' end), IFNULL(grid_dim, 'N/A'), IFNULL(block_dim, 'N/A') FROM TaskInfo
+2026-10-28 09:58:37 [INFO] [445753] [445761] [db_runner.h:90] Query data success: SELECT struct_type, id, level, thread_id, item_id, start, end, connection_id FROM ApiData
+2026-10-28 09:58:37 [INFO] [445753] [445756] [data_processor.h:85] Save COMPUTE_TASK_INFO data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445756] [process_control.cpp:331] Level[67]Release Data Types: St13unordered_mapISsSsSt4hashISsESt8equal_toISsESaISt4pairIKSsSsEEE 
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.cpp:1555] Begin to save DB:COMPUTE_TASK_INFO data.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.h:73] There are 28800 records before TASK data filtering, filterTime is 1793181512929031000.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.h:78] There are 23040 records after TASK data filtering.
+2026-10-28 09:58:37 [INFO] [445753] [445755] [data_processor.h:85] Save TASK data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445755] [process_control.cpp:331] Level[68]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.cpp:37] OVERLAP_ANALYSIS Run. Dir is /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_assembler.cpp:1555] Begin to save DB:TASK data.
+2026-10-28 09:58:37 [WARN] [445753] [445759] [overlap_analysis_processor.cpp:71] No comm task data found
+2026-10-28 09:58:37 [WARN] [445753] [445759] [overlap_analysis_processor.cpp:76] No kfc comm info found
+2026-10-28 09:58:37 [INFO] [445753] [445759] [overlap_analysis_processor.cpp:174] Find 5150 comp tasks not in all tasks.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [time_logger.h:32] sort and union all comp task in overlap analysis for device 7 start
+2026-10-28 09:58:37 [INFO] [445753] [445759] [time_logger.h:39] sort and union all comp task in overlap analysis for device 7 end, cost time = 0 ms
+2026-10-28 09:58:37 [INFO] [445753] [445759] [data_processor.h:85] Save OVERLAP_ANALYSIS data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[69]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.cpp:1555] Begin to save DB:OVERLAP_ANALYSIS data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_assembler.h:59] DBAssembler Save OVERLAP_ANALYSIS Data.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_runner.cpp:57] Start create OVERLAP_ANALYSIS, sql is CREATE TABLE IF NOT EXISTS OVERLAP_ANALYSIS (id INTEGER PRIMARY KEY, deviceId INTEGER, startNs NUMERIC, endNs NUMERIC, type INTEGER);.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_runner.cpp:70] create OVERLAP_ANALYSIS success
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_runner.h:61] Start insert data to OVERLAP_ANALYSIS
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_assembler.h:59] DBAssembler Save COMPUTE_TASK_INFO Data.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_runner.cpp:57] Start create COMPUTE_TASK_INFO, sql is CREATE TABLE IF NOT EXISTS COMPUTE_TASK_INFO (name INTEGER, globalTaskId INTEGER PRIMARY KEY, blockNum INTEGER, mixBlockNum INTEGER, taskType INTEGER, opType INTEGER, inputFormats INTEGER, inputDataTypes INTEGER, inputShapes INTEGER, outputFormats INTEGER, outputDataTypes INTEGER, outputShapes INTEGER, attrInfo INTEGER, opState INTEGER, hf32Eligible INTEGER, gridDim INTEGER, blockDim INTEGER);.
+2026-10-28 09:58:37 [INFO] [445753] [445759] [db_runner.h:72] insert data to OVERLAP_ANALYSIS success
+2026-10-28 09:58:37 [INFO] [445753] [445759] [process_control.cpp:331] Level[70]Release Data Types: St6vectorIN8Analysis6Domain19OverlapAnalysisDataESaIS2_EE 
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_runner.cpp:70] create COMPUTE_TASK_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_runner.h:61] Start insert data to COMPUTE_TASK_INFO
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_assembler.h:59] DBAssembler Save TASK Data.
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.cpp:57] Start create TASK, sql is CREATE TABLE IF NOT EXISTS TASK (startNs INTEGER, endNs INTEGER, deviceId INTEGER, connectionId INTEGER, globalTaskId INTEGER, globalPid INTEGER, taskType INTEGER, contextId INTEGER, streamId INTEGER, taskId INTEGER, modelId INTEGER);.
+2026-10-28 09:58:37 [INFO] [445753] [445757] [db_runner.h:72] insert data to COMPUTE_TASK_INFO success
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.cpp:70] create TASK success
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.h:61] Start insert data to TASK
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.h:72] insert data to TASK success
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_assembler.cpp:151] Processor CreateTableIndex, table is TASK , indexName is TaskIndex.
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.cpp:84] Start create TASK index， sql is CREATE INDEX IF NOT EXISTS TaskIndex ON TASK (startNs,globalTaskId);.
+2026-10-28 09:58:37 [INFO] [445753] [445760] [db_runner.cpp:97] create TASK index success
+2026-10-28 09:58:37 [INFO] [445753] [445757] [process_control.cpp:331] Level[71]Release Data Types: St6vectorIN8Analysis6Domain12TaskInfoDataESaIS2_EE 
+2026-10-28 09:58:37 [INFO] [445753] [445760] [process_control.cpp:331] Level[72]Release Data Types: St6vectorIN8Analysis6Domain14AscendTaskDataESaIS2_EE 
+2026-10-28 09:58:37 [INFO] [445753] [445761] [data_processor.h:73] There are 88006 records before API data filtering, filterTime is 1793181512929090000.
+2026-10-28 09:58:37 [INFO] [445753] [445761] [data_processor.h:78] There are 70393 records after API data filtering.
+2026-10-28 09:58:37 [INFO] [445753] [445761] [data_processor.h:85] Save API data into dataInventory
+2026-10-28 09:58:37 [INFO] [445753] [445761] [process_control.cpp:331] Level[73]Release Data Types: 
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_assembler.cpp:1555] Begin to save DB:API data.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_assembler.h:59] DBAssembler Save CANN_API Data.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.cpp:57] Start create CANN_API, sql is CREATE TABLE IF NOT EXISTS CANN_API (startNs INTEGER, endNs INTEGER, type INTEGER, globalTid INTEGER, connectionId INTEGER PRIMARY KEY, name INTEGER);.
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.cpp:70] create CANN_API success
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.h:61] Start insert data to CANN_API
+2026-10-28 09:58:37 [INFO] [445753] [445763] [db_runner.h:72] insert data to CANN_API success
+2026-10-28 09:58:38 [INFO] [445753] [445763] [process_control.cpp:331] Level[74]Release Data Types: St6vectorIN8Analysis6Domain7ApiDataESaIS2_EE 
+2026-10-28 09:58:38 [INFO] [445753] [445758] [db_assembler.h:59] DBAssembler Save STRING_IDS Data.
+2026-10-28 09:58:38 [INFO] [445753] [445758] [db_runner.cpp:57] Start create STRING_IDS, sql is CREATE TABLE IF NOT EXISTS STRING_IDS (id INTEGER PRIMARY KEY, value TEXT);.
+2026-10-28 09:58:38 [INFO] [445753] [445758] [db_runner.cpp:70] create STRING_IDS success
+2026-10-28 09:58:38 [INFO] [445753] [445758] [db_runner.h:61] Start insert data to STRING_IDS
+2026-10-28 09:58:38 [INFO] [445753] [445758] [db_runner.h:72] insert data to STRING_IDS success
+2026-10-28 09:58:38 [INFO] [445753] [445758] [process_control.cpp:331] Level[75]Release Data Types: 

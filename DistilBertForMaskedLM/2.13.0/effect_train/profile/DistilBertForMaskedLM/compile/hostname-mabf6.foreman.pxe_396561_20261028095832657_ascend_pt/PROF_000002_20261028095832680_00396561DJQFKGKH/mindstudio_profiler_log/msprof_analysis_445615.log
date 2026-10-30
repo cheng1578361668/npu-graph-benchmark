@@ -1,0 +1,345 @@
+2026-10-28 09:58:35 [INFO] [445615] [445615] [kernel_parser_worker.cpp:46] Start run KernelParserWorker
+2026-10-28 09:58:35 [INFO] [445615] [445618] [kernel_parser_worker.cpp:58] Start parse hash data
+2026-10-28 09:58:35 [INFO] [445615] [445616] [kernel_parser_worker.cpp:62] Start parse type info data
+2026-10-28 09:58:35 [INFO] [445615] [445618] [kernel_parser_worker.cpp:78] Hash data load from path: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/data
+2026-10-28 09:58:35 [INFO] [445615] [445616] [kernel_parser_worker.cpp:100] Typeinfo data load from path: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/dmb_v2/2.13/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_396561_20261028095832657_ascend_pt/PROF_000002_20261028095832680_00396561DJQFKGKH/host/data
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16752431624445360695
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9121722233207160946
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16062568128939123186
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16468192032129200902
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 10759831415668636540
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 10021110757863193781
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11823250893745238859
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 233652457467591006
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6245600280243946781
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 221876570799028844
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3510462129500144055
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15350674861451103170
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8254127034314634820
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3003345164368360871
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 2497346508434101550
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 247669290252505
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16340950042822324542
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8133440602158921978
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 5123478108359683303
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6110271607258315379
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6424661948760880482
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17450588159273465737
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 436336854339069248
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15378418714272475439
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 4727050148631528152
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16431344014119658676
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8693537473717162195
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15778845422428391051
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13917983931907482423
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9456452558991905989
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17632902103400014298
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 2374371568254761114
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7383439776149831
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13586766315152834564
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8982915589183173552
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9233889984384387384
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 10518662535429767218
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12044731143491189320
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13681937533633151278
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 162530599014680365
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6371697640902395132
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7816020301328451
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 10099204765703196761
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6131553312490517710
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 18323747076190717061
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7101836243224533657
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11473636153195368360
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3290502555650513029
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 945491430438813490
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7725679957044931
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13377201573284175968
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11686222957866753455
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13370385858637406747
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 4116117115720080889
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9993410429892554096
+2026-10-28 09:58:35 [INFO] [445615] [445616] [db_runner.cpp:57] Start create TypeHashInfo, sql is CREATE TABLE IF NOT EXISTS TypeHashInfo (hash_key TEXT, hash_value TEXT, level TEXT);.
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 18279256248826689999
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 4727050152926495449
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14649511944348865407
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 2651417666896483135
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15350740699005093357
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12562035297076505511
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9742056375174215872
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9235623545126969516
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14186578901084749008
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 274330108745336089
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 740287253211156583
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6708304368223455235
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15222201185198227067
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14098920078612903442
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12655213929268020538
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9109883521365234
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 888855691466560270
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9711593804331549358
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12827713204454632186
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16386018702808315377
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15370959253496158758
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 746875377518544574
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7256665222371932
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16843952430759526108
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13387248053780703851
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17324531050476317829
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3398238283242821092
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11801570330970711614
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11685514151774646589
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 5634617001641877381
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14094553616767747406
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 669215830213246066
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9024592706265771682
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 1890316564509186646
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6508504723532442382
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 5212115980048107094
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13226243069193858372
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3577410493225745447
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 1986068050789363054
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7079147118920620010
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13258841426511811021
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16763086305349035570
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16545057444856752004
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9090730916393351078
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17894443674755816974
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 5319932383093727956
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6508507940462963849
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7622078743077941167
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6508508086491852049
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6508421263725800990
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17281515913822223939
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11121566173340476392
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 791396076198527915
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 817673195770177262
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17149654360939540829
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11302199225213872516
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17067791555290924271
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 4618806356742204332
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13740047085045260192
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9855425544004970548
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 38801466930086182
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 4136716390464733209
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13417459709564386254
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12553924112837605689
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11971004514603014850
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13740136875633729288
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9554747229639829545
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11971003505285699239
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13420497458622968351
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11971007628454321087
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13740133907811311251
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14668018736708365571
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13268569901722632302
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13740140998802351136
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11971007624159353790
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11881954706955628348
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9410819617618380132
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3697760435746491010
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14204917543964967334
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9413857366676962229
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14097591365826329503
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 10508991609640520400
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 10505953860581938303
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12375219124711265862
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 1037951792110558725
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15350674556508424879
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8160106022324292067
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 73837869790786008
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17421995467204288334
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14455057689400669525
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14035513153253255251
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 16441565846442693272
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17344498675075946278
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8408014397432692306
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3486335236963084765
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12320525625016849029
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 4299368218421917237
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3876007398877004025
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17737696108074907727
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 1998972548522041775
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 182675236085487214
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8714995618498411625
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 8700392772310707829
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 17871555992991106382
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 18306040782776843402
+2026-10-28 09:58:35 [INFO] [445615] [445616] [db_runner.cpp:70] create TypeHashInfo success
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 18306040787071810699
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 5517402825185853261
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 4080358267817230643
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 18306040799956712590
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 18306040804251679887
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14597082507666552329
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7467213793124095913
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12927200154989832684
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 2189238789193365546
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 2211677963472253507
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 2629972017229495619
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 1188382217132820834
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 1992578238990091597
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11970920694019120204
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 3017158766664580839
+2026-10-28 09:58:35 [INFO] [445615] [445616] [db_runner.h:61] Start insert data to TypeHashInfo
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9545214279027082746
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7053359936057171665
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 9545214283322050043
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11369564550071870922
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13471315283519128294
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13471315287814095591
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 14934351472448862025
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 7056397685115753762
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 1645337230049329870
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 15709057084422233864
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12840796869458517296
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13002432412113872833
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11368364592170367771
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 5644436808963149437
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13814955891045917936
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 11612713589012835743
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6186034000886422224
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 12840796899523288375
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 13905752140702576603
+2026-10-28 09:58:35 [WARN] [445615] [445618] [hash_data.cpp:81] Duplicate hash found key: 6311401046923787338
+2026-10-28 09:58:35 [INFO] [445615] [445618] [kernel_parser_worker.cpp:80] Start load runtime op info data
+2026-10-28 09:58:35 [INFO] [445615] [445618] [kernel_parser_worker.cpp:83] success get hash data
+2026-10-28 09:58:35 [INFO] [445615] [445618] [kernel_parser_worker.cpp:90] success get hashDbDumper
+2026-10-28 09:58:35 [INFO] [445615] [445618] [db_runner.cpp:57] Start create GeHashInfo, sql is CREATE TABLE IF NOT EXISTS GeHashInfo (hash_key TEXT, hash_value TEXT);.
+2026-10-28 09:58:35 [INFO] [445615] [445616] [db_runner.h:72] insert data to TypeHashInfo success
+2026-10-28 09:58:35 [INFO] [445615] [445616] [base_dumper.h:62] Dump TypeHashInfo data success
+2026-10-28 09:58:35 [INFO] [445615] [445618] [db_runner.cpp:70] create GeHashInfo success
+2026-10-28 09:58:35 [INFO] [445615] [445618] [db_runner.h:61] Start insert data to GeHashInfo
+2026-10-28 09:58:35 [INFO] [445615] [445618] [db_runner.h:72] insert data to GeHashInfo success
+2026-10-28 09:58:35 [INFO] [445615] [445618] [base_dumper.h:62] Dump GeHashInfo data success
+2026-10-28 09:58:35 [INFO] [445615] [445615] [time_logger.h:32] HostTraceWorker start
+2026-10-28 09:58:35 [INFO] [445615] [445615] [time_logger.h:32] Group all events start
+2026-10-28 09:58:35 [INFO] [445615] [445619] [time_logger.h:32] Group Kernel start
+2026-10-28 09:58:35 [INFO] [445615] [445626] [time_logger.h:32] Group FusionOpInfo start
+2026-10-28 09:58:35 [INFO] [445615] [445621] [time_logger.h:32] Group GraphIdMap start
+2026-10-28 09:58:35 [INFO] [445615] [445620] [time_logger.h:32] Group NodeBasicInfo start
+2026-10-28 09:58:35 [INFO] [445615] [445623] [time_logger.h:32] Group NodeAttrInfo start
+2026-10-28 09:58:35 [INFO] [445615] [445624] [time_logger.h:32] Group TensorInfo start
+2026-10-28 09:58:35 [INFO] [445615] [445626] [time_logger.h:39] Group FusionOpInfo end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445625] [time_logger.h:32] Group ContextId start
+2026-10-28 09:58:35 [INFO] [445615] [445624] [time_logger.h:39] Group TensorInfo end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445624] [time_logger.h:32] Group HcclInfo start
+2026-10-28 09:58:35 [INFO] [445615] [445626] [time_logger.h:32] Group HcclOpInfo start
+2026-10-28 09:58:35 [INFO] [445615] [445623] [time_logger.h:39] Group NodeAttrInfo end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445620] [time_logger.h:39] Group NodeBasicInfo end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445621] [time_logger.h:39] Group GraphIdMap end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445622] [time_logger.h:32] Group TaskTrack start
+2026-10-28 09:58:35 [INFO] [445615] [445623] [time_logger.h:32] Group DpuTaskTrack start
+2026-10-28 09:58:35 [INFO] [445615] [445626] [time_logger.h:39] Group HcclOpInfo end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445624] [time_logger.h:39] Group HcclInfo end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445623] [event_grouper.cpp:334] Parsed DPU task track data, size: 0
+2026-10-28 09:58:35 [INFO] [445615] [445623] [time_logger.h:39] Group DpuTaskTrack end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445625] [time_logger.h:39] Group ContextId end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445622] [time_logger.h:39] Group TaskTrack end, cost time = 34 ms
+2026-10-28 09:58:35 [INFO] [445615] [445619] [time_logger.h:39] Group Kernel end, cost time = 78 ms
+2026-10-28 09:58:35 [INFO] [445615] [445615] [event_grouper.cpp:144] After group events, Kernel: 5301, GraphId: 0, FusionOp: 0, NodeBasic: 0, NodeAttr: 0, Tensor: 0, ContextId: 0, HcclInfo: 0, TaskTrack: 0, HcclOpInfo: 0, thread: 396561
+2026-10-28 09:58:35 [INFO] [445615] [445615] [event_grouper.cpp:144] After group events, Kernel: 44100, GraphId: 0, FusionOp: 0, NodeBasic: 0, NodeAttr: 0, Tensor: 0, ContextId: 250, HcclInfo: 0, TaskTrack: 28550, HcclOpInfo: 0, thread: 397106
+2026-10-28 09:58:35 [INFO] [445615] [445615] [event_grouper.cpp:144] After group events, Kernel: 2905, GraphId: 0, FusionOp: 0, NodeBasic: 0, NodeAttr: 0, Tensor: 0, ContextId: 0, HcclInfo: 0, TaskTrack: 0, HcclOpInfo: 0, thread: 397124
+2026-10-28 09:58:35 [INFO] [445615] [445615] [time_logger.h:39] Group all events end, cost time = 79 ms
+2026-10-28 09:58:35 [INFO] [445615] [445630] [time_logger.h:32] Dump api data start start
+2026-10-28 09:58:35 [INFO] [445615] [445629] [time_logger.h:32] Dump flip tasks data start start
+2026-10-28 09:58:35 [INFO] [445615] [445636] [time_logger.h:32] Dump dpu task track data start start
+2026-10-28 09:58:35 [WARN] [445615] [445636] [base_dumper.h:45] Input data is empty, pass dump
+2026-10-28 09:58:35 [INFO] [445615] [445636] [time_logger.h:39] Dump dpu task track data start end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445628] [time_logger.h:32] Dump model name data start start
+2026-10-28 09:58:35 [WARN] [445615] [445629] [base_dumper.h:45] Input data is empty, pass dump
+2026-10-28 09:58:35 [INFO] [445615] [445631] [time_logger.h:32] Multi thread build tree start
+2026-10-28 09:58:35 [INFO] [445615] [445629] [time_logger.h:39] Dump flip tasks data start end, cost time = 0 ms
+2026-10-28 09:58:35 [WARN] [445615] [445628] [base_dumper.h:45] Input data is empty, pass dump
+2026-10-28 09:58:35 [INFO] [445615] [445628] [time_logger.h:39] Dump model name data start end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445637] [host_trace_worker.cpp:80] Start multi thread build tree, threadId = 396561
+2026-10-28 09:58:35 [INFO] [445615] [445638] [host_trace_worker.cpp:80] Start multi thread build tree, threadId = 397106
+2026-10-28 09:58:35 [INFO] [445615] [445639] [host_trace_worker.cpp:80] Start multi thread build tree, threadId = 397124
+2026-10-28 09:58:35 [INFO] [445615] [445639] [event_queue.cpp:72] EventQueue for thread 397124 is empty
+2026-10-28 09:58:35 [INFO] [445615] [445639] [event_queue.cpp:72] EventQueue for thread 397124 is empty
+2026-10-28 09:58:35 [WARN] [445615] [445647] [tree_builder.cpp:216] No Events, event type: 8, threadId = 397124
+2026-10-28 09:58:35 [WARN] [445615] [445647] [tree_builder.cpp:216] No Events, event type: 6, threadId = 397124
+2026-10-28 09:58:35 [WARN] [445615] [445649] [tree_builder.cpp:216] No Events, event type: 2, threadId = 397124
+2026-10-28 09:58:35 [WARN] [445615] [445647] [tree_builder.cpp:216] No Events, event type: 5, threadId = 397124
+2026-10-28 09:58:35 [WARN] [445615] [445649] [tree_builder.cpp:216] No Events, event type: 3, threadId = 397124
+2026-10-28 09:58:35 [WARN] [445615] [445649] [tree_builder.cpp:216] No Events, event type: 4, threadId = 397124
+2026-10-28 09:58:35 [WARN] [445615] [445649] [tree_builder.cpp:216] No Events, event type: 6, threadId = 397124
+2026-10-28 09:58:35 [WARN] [445615] [445649] [tree_builder.cpp:216] No Events, event type: 10, threadId = 397124
+2026-10-28 09:58:35 [INFO] [445615] [445639] [tree_builder.cpp:303] TaskTrack Events have been processed, threadId = 397124
+2026-10-28 09:58:35 [INFO] [445615] [445639] [tree_builder.cpp:84] Build Tree End, ThreadId = 397124
+2026-10-28 09:58:35 [INFO] [445615] [445639] [host_trace_worker.cpp:91] Multi thread build tree done, threadId = 397124
+2026-10-28 09:58:35 [INFO] [445615] [445637] [event_queue.cpp:72] EventQueue for thread 396561 is empty
+2026-10-28 09:58:35 [INFO] [445615] [445637] [event_queue.cpp:72] EventQueue for thread 396561 is empty
+2026-10-28 09:58:35 [WARN] [445615] [445652] [tree_builder.cpp:216] No Events, event type: 8, threadId = 396561
+2026-10-28 09:58:35 [WARN] [445615] [445651] [tree_builder.cpp:216] No Events, event type: 2, threadId = 396561
+2026-10-28 09:58:35 [WARN] [445615] [445650] [tree_builder.cpp:216] No Events, event type: 6, threadId = 396561
+2026-10-28 09:58:35 [WARN] [445615] [445651] [tree_builder.cpp:216] No Events, event type: 3, threadId = 396561
+2026-10-28 09:58:35 [WARN] [445615] [445650] [tree_builder.cpp:216] No Events, event type: 5, threadId = 396561
+2026-10-28 09:58:35 [WARN] [445615] [445651] [tree_builder.cpp:216] No Events, event type: 4, threadId = 396561
+2026-10-28 09:58:35 [WARN] [445615] [445651] [tree_builder.cpp:216] No Events, event type: 6, threadId = 396561
+2026-10-28 09:58:35 [WARN] [445615] [445651] [tree_builder.cpp:216] No Events, event type: 10, threadId = 396561
+2026-10-28 09:58:35 [INFO] [445615] [445637] [tree_builder.cpp:303] TaskTrack Events have been processed, threadId = 396561
+2026-10-28 09:58:35 [INFO] [445615] [445637] [tree_builder.cpp:84] Build Tree End, ThreadId = 396561
+2026-10-28 09:58:35 [INFO] [445615] [445637] [host_trace_worker.cpp:91] Multi thread build tree done, threadId = 396561
+2026-10-28 09:58:35 [INFO] [445615] [445630] [db_runner.cpp:57] Start create ApiData, sql is CREATE TABLE IF NOT EXISTS ApiData (struct_type TEXT, id TEXT, level TEXT, thread_id INTEGER, item_id TEXT, start INTEGER, end INTEGER, connection_id INTEGER);.
+2026-10-28 09:58:35 [INFO] [445615] [445630] [db_runner.cpp:70] create ApiData success
+2026-10-28 09:58:35 [INFO] [445615] [445638] [event_queue.cpp:72] EventQueue for thread 397106 is empty
+2026-10-28 09:58:35 [INFO] [445615] [445638] [event_queue.cpp:72] EventQueue for thread 397106 is empty
+2026-10-28 09:58:35 [INFO] [445615] [445638] [event_queue.cpp:72] EventQueue for thread 397106 is empty
+2026-10-28 09:58:35 [WARN] [445615] [445654] [tree_builder.cpp:216] No Events, event type: 8, threadId = 397106
+2026-10-28 09:58:35 [WARN] [445615] [445653] [tree_builder.cpp:216] No Events, event type: 2, threadId = 397106
+2026-10-28 09:58:35 [WARN] [445615] [445655] [tree_builder.cpp:216] No Events, event type: 6, threadId = 397106
+2026-10-28 09:58:35 [WARN] [445615] [445653] [tree_builder.cpp:216] No Events, event type: 3, threadId = 397106
+2026-10-28 09:58:35 [WARN] [445615] [445655] [tree_builder.cpp:216] No Events, event type: 5, threadId = 397106
+2026-10-28 09:58:35 [WARN] [445615] [445653] [tree_builder.cpp:216] No Events, event type: 4, threadId = 397106
+2026-10-28 09:58:35 [INFO] [445615] [445653] [tree_builder.cpp:266] Add LevelEvents done, threadId = 397106, event type: 6, matchCnt = 250, mismatchCnt = 0 
+2026-10-28 09:58:35 [WARN] [445615] [445653] [tree_builder.cpp:216] No Events, event type: 10, threadId = 397106
+2026-10-28 09:58:35 [INFO] [445615] [445630] [db_runner.h:61] Start insert data to ApiData
+2026-10-28 09:58:35 [INFO] [445615] [445638] [tree_builder.cpp:84] Build Tree End, ThreadId = 397106
+2026-10-28 09:58:35 [INFO] [445615] [445638] [host_trace_worker.cpp:91] Multi thread build tree done, threadId = 397106
+2026-10-28 09:58:35 [INFO] [445615] [445631] [time_logger.h:39] Multi thread build tree end, cost time = 76 ms
+2026-10-28 09:58:35 [INFO] [445615] [445631] [time_logger.h:32] Multi thread analyze tree and dump data start
+2026-10-28 09:58:35 [INFO] [445615] [445656] [host_trace_worker.cpp:110] Start analyze tree and dump data, threadId = 397124
+2026-10-28 09:58:35 [INFO] [445615] [445657] [host_trace_worker.cpp:110] Start analyze tree and dump data, threadId = 397106
+2026-10-28 09:58:35 [INFO] [445615] [445658] [host_trace_worker.cpp:110] Start analyze tree and dump data, threadId = 396561
+2026-10-28 09:58:35 [INFO] [445615] [445656] [time_logger.h:32] Dump CANN data start
+2026-10-28 09:58:35 [INFO] [445615] [445658] [time_logger.h:32] Dump CANN data start
+2026-10-28 09:58:35 [INFO] [445615] [445667] [cann_trace_db_dumper.cpp:155] Empty hccl OPs
+2026-10-28 09:58:35 [INFO] [445615] [445669] [cann_trace_db_dumper.cpp:194] Empty host tasks
+2026-10-28 09:58:35 [INFO] [445615] [445667] [cann_trace_db_dumper.cpp:502] Empty hccl tasks
+2026-10-28 09:58:35 [INFO] [445615] [445666] [cann_trace_db_dumper.cpp:233] Empty kernel tasks
+2026-10-28 09:58:35 [INFO] [445615] [445668] [cann_trace_db_dumper.cpp:560] Empty geFusionOps
+2026-10-28 09:58:35 [INFO] [445615] [445656] [time_logger.h:39] Dump CANN data end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445656] [host_trace_worker.cpp:119] Dump cann trace data done, threadId = 397124
+2026-10-28 09:58:35 [INFO] [445615] [445671] [cann_trace_db_dumper.cpp:155] Empty hccl OPs
+2026-10-28 09:58:35 [INFO] [445615] [445673] [cann_trace_db_dumper.cpp:194] Empty host tasks
+2026-10-28 09:58:35 [INFO] [445615] [445670] [cann_trace_db_dumper.cpp:233] Empty kernel tasks
+2026-10-28 09:58:35 [INFO] [445615] [445672] [cann_trace_db_dumper.cpp:560] Empty geFusionOps
+2026-10-28 09:58:35 [INFO] [445615] [445671] [cann_trace_db_dumper.cpp:502] Empty hccl tasks
+2026-10-28 09:58:35 [INFO] [445615] [445658] [time_logger.h:39] Dump CANN data end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445658] [host_trace_worker.cpp:119] Dump cann trace data done, threadId = 396561
+2026-10-28 09:58:35 [INFO] [445615] [445657] [time_logger.h:32] Dump CANN data start
+2026-10-28 09:58:35 [INFO] [445615] [445674] [cann_trace_db_dumper.cpp:155] Empty hccl OPs
+2026-10-28 09:58:35 [INFO] [445615] [445674] [cann_trace_db_dumper.cpp:502] Empty hccl tasks
+2026-10-28 09:58:35 [INFO] [445615] [445677] [cann_trace_db_dumper.cpp:560] Empty geFusionOps
+2026-10-28 09:58:35 [INFO] [445615] [445676] [time_logger.h:32] DumpOpDesc Start start
+2026-10-28 09:58:35 [INFO] [445615] [445676] [db_runner.cpp:57] Start create TaskInfo, sql is CREATE TABLE IF NOT EXISTS TaskInfo (model_id INTEGER, op_name TEXT, stream_id INTEGER, task_id INTEGER, block_num INTEGER, mix_block_num INTEGER, op_state TEXT, task_type TEXT, op_type TEXT, index_id INTEGER, thread_id INTEGER, timestamp NUMERIC, batch_id INTEGER, tensor_num INTEGER, input_formats TEXT, input_data_types TEXT, input_shapes TEXT, output_formats TEXT, output_data_types TEXT, output_shapes TEXT, device_id INTEGER, context_id INTEGER, op_flag TEXT, hashid TEXT, grid_dim TEXT, block_dim TEXT);.
+2026-10-28 09:58:35 [INFO] [445615] [445675] [time_logger.h:32] Dump host tasks start
+2026-10-28 09:58:35 [INFO] [445615] [445675] [db_runner.cpp:57] Start create HostTask, sql is CREATE TABLE IF NOT EXISTS HostTask (model_id INTEGER, request_id INTEGER, stream_id INTEGER, task_id INTEGER, context_ids TEXT, batch_id INTEGER, task_type TEXT, kernel_name TEXT, device_id INTEGER, timestamp NUMERIC, connection_id INTEGER, thread_id NUMERIC);.
+2026-10-28 09:58:35 [INFO] [445615] [445675] [db_runner.cpp:70] create HostTask success
+2026-10-28 09:58:35 [INFO] [445615] [445676] [db_runner.cpp:70] create TaskInfo success
+2026-10-28 09:58:35 [INFO] [445615] [445630] [db_runner.h:72] insert data to ApiData success
+2026-10-28 09:58:35 [INFO] [445615] [445630] [base_dumper.h:62] Dump ApiData data success
+2026-10-28 09:58:35 [INFO] [445615] [445675] [db_runner.h:61] Start insert data to HostTask
+2026-10-28 09:58:35 [INFO] [445615] [445676] [db_runner.h:61] Start insert data to TaskInfo
+2026-10-28 09:58:35 [INFO] [445615] [445630] [time_logger.h:39] Dump api data start end, cost time = 197 ms
+2026-10-28 09:58:35 [INFO] [445615] [445675] [db_runner.h:72] insert data to HostTask success
+2026-10-28 09:58:35 [INFO] [445615] [445675] [time_logger.h:39] Dump host tasks end, cost time = 75 ms
+2026-10-28 09:58:35 [INFO] [445615] [445676] [db_runner.h:72] insert data to TaskInfo success
+2026-10-28 09:58:35 [INFO] [445615] [445676] [time_logger.h:39] DumpOpDesc Start end, cost time = 132 ms
+2026-10-28 09:58:35 [INFO] [445615] [445657] [time_logger.h:39] Dump CANN data end, cost time = 139 ms
+2026-10-28 09:58:35 [INFO] [445615] [445657] [host_trace_worker.cpp:119] Dump cann trace data done, threadId = 397106
+2026-10-28 09:58:35 [INFO] [445615] [445631] [time_logger.h:39] Multi thread analyze tree and dump data end, cost time = 230 ms
+2026-10-28 09:58:35 [INFO] [445615] [445615] [time_logger.h:32] Dump memcpy info data start start
+2026-10-28 09:58:35 [WARN] [445615] [445615] [base_dumper.h:45] Input data is empty, pass dump
+2026-10-28 09:58:35 [INFO] [445615] [445615] [time_logger.h:39] Dump memcpy info data start end, cost time = 0 ms
+2026-10-28 09:58:35 [INFO] [445615] [445615] [time_logger.h:39] HostTraceWorker end, cost time = 396 ms
