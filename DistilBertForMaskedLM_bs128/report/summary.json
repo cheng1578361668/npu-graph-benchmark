@@ -1,0 +1,110 @@
+[
+  {
+    "label": "2.13_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.13.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 283.04023400414735,
+        "median_ms": 265.3801999986172,
+        "min_ms": 259.2901900643483,
+        "max_ms": 363.6203099740669,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 973.7135472102091,
+        "median_ms": 314.41135006025434,
+        "min_ms": 273.31840991973877,
+        "max_ms": 6887.225090060383,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 0.29068121195919183,
+    "latency_reduction_percent": -244.0194821192599,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.13_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.13.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 81.04989079292864,
+        "median_ms": 81.06821996625513,
+        "min_ms": 80.53691009990871,
+        "max_ms": 81.76853007171303,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 61.365105588920414,
+        "median_ms": 61.198589974083006,
+        "min_ms": 60.94395008403808,
+        "max_ms": 64.84304997138679,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.320781411766402,
+    "latency_reduction_percent": 24.28724457420942,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.14_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.14.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 259.7800680156797,
+        "median_ms": 259.73959011025727,
+        "min_ms": 258.8830000022426,
+        "max_ms": 260.97401010338217,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 267.9352931911126,
+        "median_ms": 267.89630006533116,
+        "min_ms": 267.43326999712735,
+        "max_ms": 268.6262900242582,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 0.9695627064344379,
+    "latency_reduction_percent": -3.1392805605627183,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.14_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.14.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 86.94685720372945,
+        "median_ms": 79.88196006044745,
+        "min_ms": 79.57913994323462,
+        "max_ms": 129.25440003164113,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 60.99939359817654,
+        "median_ms": 60.70894992444664,
+        "min_ms": 60.43049995787442,
+        "max_ms": 68.14079999458045,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.4253724844623465,
+    "latency_reduction_percent": 29.84289995066082,
+    "pass_accuracy_seen": true
+  }
+]

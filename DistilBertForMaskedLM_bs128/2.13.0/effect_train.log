@@ -1,0 +1,178 @@
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:13: FutureWarning: triton.language.extra.cann.extension.atan2 is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.atan2 instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.atan2")
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:35: FutureWarning: triton.language.extra.cann.extension.isfinited is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.isfinited instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.isfinited")
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:49: FutureWarning: triton.language.extra.cann.extension.finitef is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.finitef instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.finitef")
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/torch_npu/dynamo/__init__.py:182: UserWarning: Register eager implementation for the 'npu' backend of dynamo, as torch_npu was not compiled with torchair.
+  warnings.warn(
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+gemma model entries disabled: transformers>=4.50 required, current 4.36.0
+loading model: 0it [00:00, ?it/s][W1102 06:41:17.680642400 NPUCachingAllocator.cpp:169] Warning: The current CANN and Soc versions require processing for 32 padding size, with memory allocation. (function operator())
+loading model: 0it [00:14, ?it/s]
+npu  train DistilBertForMaskedLM              
+learning rate: 0.01
+[W1102 06:41:18.939695200 ToKernelNpu.cpp:40] Warning: Device do not support double dtype now, dtype cast replace with float. (function operator())
+tolerance: 0.01
+[eager] step: 1 step_time: 259.4328699633479 ms loss: 10.480968475341797
+[eager] step: 2 step_time: 259.97748994268477 ms loss: 10.474724769592285
+[eager] step: 3 step_time: 258.92394001130015 ms loss: 10.473776817321777
+[eager] step: 4 step_time: 259.96156001929194 ms loss: 10.477855682373047
+[eager] step: 5 step_time: 258.7793399579823 ms loss: 10.472139358520508
+[eager] step: 6 step_time: 258.4097000071779 ms loss: 10.465575218200684
+[eager] step: 7 step_time: 258.0570400459692 ms loss: 10.464202880859375
+[eager] step: 8 step_time: 258.1434699241072 ms loss: 10.464254379272461
+[eager] step: 9 step_time: 258.70321004185826 ms loss: 10.45930004119873
+[eager] step: 10 step_time: 259.08013992011547 ms loss: 10.462054252624512
+[eager] step: 11 step_time: 259.92095994297415 ms loss: 10.458032608032227
+[eager] step: 12 step_time: 258.5922699654475 ms loss: 10.454049110412598
+[eager] step: 13 step_time: 258.71223001740873 ms loss: 10.45528793334961
+[eager] step: 14 step_time: 259.6208701143041 ms loss: 10.457666397094727
+[eager] step: 15 step_time: 260.0445100106299 ms loss: 10.45357894897461
+[eager] step: 16 step_time: 260.01170999370515 ms loss: 10.448243141174316
+[eager] step: 17 step_time: 260.4688600404188 ms loss: 10.447256088256836
+[eager] step: 18 step_time: 259.76207002531737 ms loss: 10.444091796875
+[eager] step: 19 step_time: 259.5692399190739 ms loss: 10.446908950805664
+[eager] step: 20 step_time: 259.54613008070737 ms loss: 10.443641662597656
+[eager] step: 21 step_time: 260.3483999846503 ms loss: 10.437677383422852
+[eager] step: 22 step_time: 259.2901900643483 ms loss: 10.439752578735352
+[eager] step: 23 step_time: 259.4913599314168 ms loss: 10.437326431274414
+[eager] step: 24 step_time: 260.79358998686075 ms loss: 10.431827545166016
+[eager] step: 25 step_time: 260.5350000085309 ms loss: 10.433069229125977
+[eager] step: 26 step_time: 265.3801999986172 ms loss: 10.434198379516602
+[eager] step: 27 step_time: 271.5388999786228 ms loss: 10.428529739379883
+[eager] step: 28 step_time: 323.8977800356224 ms loss: 10.426337242126465
+[eager] step: 29 step_time: 285.6327600311488 ms loss: 10.431440353393555
+[eager] step: 30 step_time: 298.77469001803547 ms loss: 10.424040794372559
+[eager] step: 31 step_time: 291.3213799474761 ms loss: 10.42065143585205
+[eager] step: 32 step_time: 363.6203099740669 ms loss: 10.419118881225586
+[eager] step: 33 step_time: 331.8176700267941 ms loss: 10.4158353805542
+[eager] step: 34 step_time: 259.91959997918457 ms loss: 10.41749095916748
+[eager] step: 35 step_time: 329.7412000829354 ms loss: 10.41023063659668
+[eager] step: 36 step_time: 259.6662900177762 ms loss: 10.410002708435059
+[eager] step: 37 step_time: 313.385620014742 ms loss: 10.409765243530273
+[eager] step: 38 step_time: 290.52653000690043 ms loss: 10.408211708068848
+[eager] step: 39 step_time: 302.51427995972335 ms loss: 10.402064323425293
+[eager] step: 40 step_time: 288.45208999700844 ms loss: 10.402929306030273
+[eager] step: 41 step_time: 259.85835993196815 ms loss: 10.402746200561523
+[eager] step: 42 step_time: 260.31623990274966 ms loss: 10.400138854980469
+[eager] step: 43 step_time: 259.63731994852424 ms loss: 10.400153160095215
+[eager] step: 44 step_time: 260.08849998470396 ms loss: 10.39523983001709
+[eager] step: 45 step_time: 260.4543800698593 ms loss: 10.395281791687012
+[eager] step: 46 step_time: 310.20467006601393 ms loss: 10.396096229553223
+[eager] step: 47 step_time: 314.67286008410156 ms loss: 10.387338638305664
+[eager] step: 48 step_time: 322.70183006767184 ms loss: 10.389986991882324
+[eager] step: 49 step_time: 287.6242700731382 ms loss: 10.385116577148438
+[2026-11-02 06:41:46] [INFO] [4193018] profiler.py: Start parsing profiling data in sync mode at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.13.0/effect_train/profile/DistilBertForMaskedLM/eager/hostname-mabf6.foreman.pxe_4192102_20261102064132119_ascend_pt
+|/-\|/-\|/-[2026-11-02 06:41:57] [INFO] [4193029] profiler.py: CANN profiling data parsed in a total time of 0:00:11.075274
+\|/-\[2026-11-02 06:42:02] [INFO] [4193018] profiler.py: All profiling data parsed in a total time of 0:00:16.182788
+[eager] step: 50 step_time: 349.8319700593129 ms
+[eager] summary [16-40] total steps time: 7076.01 ms, avg step time: 283.04 ms
+W1102 06:42:49.236000 4192102 torch/_inductor/utils.py:1953] [0/0] Not enough SMs to use max_autotune_gemm mode
+2026-11-02 06:42:54,466 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=128
+2026-11-02 06:42:54,467 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=1024
+2026-11-02 06:42:54,467 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=2048
+2026-11-02 06:42:54,467 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=4096
+2026-11-02 06:42:54,467 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=8192
+2026-11-02 06:42:58,921 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=128
+2026-11-02 06:42:58,922 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=1024
+2026-11-02 06:42:58,922 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=2048
+2026-11-02 06:42:58,922 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=4096
+2026-11-02 06:42:58,922 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=8192
+2026-11-02 06:43:03,296 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=128
+2026-11-02 06:43:03,296 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=1024
+2026-11-02 06:43:03,296 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=2048
+2026-11-02 06:43:03,296 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=4096
+2026-11-02 06:43:03,296 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=8192
+2026-11-02 06:43:07,643 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=128
+2026-11-02 06:43:07,644 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=1024
+2026-11-02 06:43:07,644 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=2048
+2026-11-02 06:43:07,644 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=4096
+2026-11-02 06:43:07,644 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=8192
+2026-11-02 06:43:12,006 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=128
+2026-11-02 06:43:12,006 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=1024
+2026-11-02 06:43:12,006 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=2048
+2026-11-02 06:43:12,006 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=4096
+2026-11-02 06:43:12,006 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=8192
+2026-11-02 06:43:16,244 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1' -> scalar at XB=64
+2026-11-02 06:43:16,244 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 768*y0 + 98304*y2' -> no-rescue at XB=64
+2026-11-02 06:43:16,244 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1' -> no-rescue at XB=1024
+2026-11-02 06:43:16,244 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 768*y0 + 98304*y2' -> no-rescue at XB=1024
+2026-11-02 06:43:16,244 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1' -> no-rescue at XB=2048
+2026-11-02 06:43:16,245 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 768*y0 + 98304*y2' -> no-rescue at XB=2048
+2026-11-02 06:43:16,245 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1' -> no-rescue at XB=4096
+2026-11-02 06:43:16,245 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 768*y0 + 98304*y2' -> no-rescue at XB=4096
+2026-11-02 06:43:16,245 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1' -> no-rescue at XB=8192
+2026-11-02 06:43:16,245 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 768*y0 + 98304*y2' -> no-rescue at XB=8192
+2026-11-02 06:43:16,402 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=128
+2026-11-02 06:43:16,402 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=1024
+2026-11-02 06:43:16,403 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=2048
+2026-11-02 06:43:16,403 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=4096
+2026-11-02 06:43:16,403 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 128*y0 + 16384*y1' -> no-rescue at XB=8192
+W1102 06:58:34.474000 4192102 torch/_inductor/debug.py:545] [0/0] DistilBertForMaskedLM__0_forward_1 debug trace: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.13.0/effect_train/debug/torch_compile_debug/run_2026_11_02_06_42_35_268757-pid_4192102/torchinductor/DistilBertForMaskedLM__0_forward_1.0
+2026-11-02 06:58:34,801 - WARNING - [AUTOTUNE] mspti device-time bench unavailable (mspti python package not importable); falling back to event-based autotune. Event timing is unreliable for small NPU kernels (host dispatch cost dwarfs device compute), so autotune may pick a suboptimal config.
+W1102 07:20:44.730000 4192102 torch/_inductor/debug.py:545] [0/0] DistilBertForMaskedLM__0_backward_3 debug trace: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.13.0/effect_train/debug/torch_compile_debug/run_2026_11_02_06_42_35_268757-pid_4192102/torchinductor/DistilBertForMaskedLM__0_backward_3.1
+E1102 07:20:47.013232 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.54 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+E1102 07:20:47.494054 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.16 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+E1102 07:20:47.944352 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.16 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+E1102 07:20:48.397203 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.16 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+E1102 07:20:48.864485 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.16 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+E1102 07:20:49.338748 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.16 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+E1102 07:20:49.822678 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.16 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+E1102 07:20:50.293173 4192102 torch_npu/csrc/core/npu/NPUCachingAllocator.cpp:1381] NPU out of memory. Tried to allocate 246.00 MiB (NPU 0; 29.49 GiB total capacity; 24.87 GiB already allocated; 24.87 GiB current active; 67.16 MiB free; 25.30 GiB reserved in total by PyTorch).If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.
+[compile] step: 1 step_time: 898.8939899718389 ms loss: 10.480966567993164
+[compile] step: 2 step_time: 274.3125900160521 ms loss: 10.474723815917969
+[compile] step: 3 step_time: 324.3846900295466 ms loss: 10.47377872467041
+[compile] step: 4 step_time: 287.1920200996101 ms loss: 10.47785758972168
+[compile] step: 5 step_time: 281.4527100417763 ms loss: 10.472137451171875
+[compile] step: 6 step_time: 331.5423099556938 ms loss: 10.465576171875
+[compile] step: 7 step_time: 285.67841998301446 ms loss: 10.464201927185059
+[compile] step: 8 step_time: 294.33752002660185 ms loss: 10.464254379272461
+[compile] step: 9 step_time: 345.1597299426794 ms loss: 10.45930290222168
+[compile] step: 10 step_time: 295.7295599626377 ms loss: 10.462055206298828
+[compile] step: 11 step_time: 1747.3938800394535 ms loss: 10.458029747009277
+[compile] step: 12 step_time: 473.324739956297 ms loss: 10.454050064086914
+[compile] step: 13 step_time: 298.5814500134438 ms loss: 10.455286979675293
+[compile] step: 14 step_time: 313.2012099958956 ms loss: 10.457664489746094
+[compile] step: 15 step_time: 310.4518299223855 ms loss: 10.453577041625977
+[compile] step: 16 step_time: 395.8891099318862 ms loss: 10.448241233825684
+[compile] step: 17 step_time: 3580.3257799707353 ms loss: 10.447254180908203
+[compile] step: 18 step_time: 6887.225090060383 ms loss: 10.444091796875
+[compile] step: 19 step_time: 2685.6988799991086 ms loss: 10.446908950805664
+[compile] step: 20 step_time: 1432.230499922298 ms loss: 10.443641662597656
+[compile] step: 21 step_time: 1666.2526900181547 ms loss: 10.437676429748535
+[compile] step: 22 step_time: 1217.7993599325418 ms loss: 10.439751625061035
+[compile] step: 23 step_time: 444.27850004285574 ms loss: 10.437328338623047
+[compile] step: 24 step_time: 323.7848699791357 ms loss: 10.431829452514648
+[compile] step: 25 step_time: 324.82414005789906 ms loss: 10.43307113647461
+[compile] step: 26 step_time: 1248.127909959294 ms loss: 10.434198379516602
+[compile] step: 27 step_time: 314.41135006025434 ms loss: 10.428531646728516
+[compile] step: 28 step_time: 294.71569997258484 ms loss: 10.426336288452148
+[compile] step: 29 step_time: 294.8428400559351 ms loss: 10.431440353393555
+[compile] step: 30 step_time: 306.7819500574842 ms loss: 10.424041748046875
+[compile] step: 31 step_time: 288.47481997217983 ms loss: 10.420652389526367
+[compile] step: 32 step_time: 282.60118002071977 ms loss: 10.419119834899902
+[compile] step: 33 step_time: 279.1080600582063 ms loss: 10.415836334228516
+[compile] step: 34 step_time: 300.8634800789878 ms loss: 10.417492866516113
+[compile] step: 35 step_time: 278.8649400463328 ms loss: 10.41023063659668
+[compile] step: 36 step_time: 273.31840991973877 ms loss: 10.410004615783691
+[compile] step: 37 step_time: 295.7803300814703 ms loss: 10.409765243530273
+[compile] step: 38 step_time: 274.3877599714324 ms loss: 10.408210754394531
+[compile] step: 39 step_time: 275.69350006524473 ms loss: 10.402064323425293
+[compile] step: 40 step_time: 376.55753002036363 ms loss: 10.40292739868164
+[compile] step: 41 step_time: 491.67259002570063 ms loss: 10.402746200561523
+[compile] step: 42 step_time: 554.5504700858146 ms loss: 10.400138854980469
+[compile] step: 43 step_time: 2190.723089966923 ms loss: 10.400154113769531
+[compile] step: 44 step_time: 284.87729001790285 ms loss: 10.39523983001709
+[compile] step: 45 step_time: 284.11910007707775 ms loss: 10.395280838012695
+[compile] step: 46 step_time: 325.78698999714106 ms loss: 10.396097183227539
+[compile] step: 47 step_time: 324.6111599728465 ms loss: 10.387337684631348
+[compile] step: 48 step_time: 292.1470699366182 ms loss: 10.389986038208008
+[compile] step: 49 step_time: 277.72741997614503 ms loss: 10.385115623474121
+[2026-11-02 07:23:00] [INFO] [80144] profiler.py: Start parsing profiling data in sync mode at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/DistilBertForMaskedLM_bs128/2.13.0/effect_train/profile/DistilBertForMaskedLM/compile/hostname-mabf6.foreman.pxe_4192102_20261102072200936_ascend_pt
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\[2026-11-02 07:28:15] [INFO] [80222] profiler.py: CANN profiling data parsed in a total time of 0:04:59.350407
+|/-\|/-\|/[2026-11-02 07:28:26] [INFO] [80144] profiler.py: All profiling data parsed in a total time of 0:05:35.004677
+[compile] step: 50 step_time: 291.4647998986766 ms
+[compile] summary [16-40] total steps time: 24342.84 ms, avg step time: 973.71 ms
+pass_accuracy

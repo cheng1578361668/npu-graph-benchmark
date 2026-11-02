@@ -39,6 +39,21 @@ benchmark/
 
 > 上表为融合效果轮观测值（debug+profiler 双开），正式 E2E 加速比需双关基线；详见各模型文件夹内的归档报告。
 
+### DistilBertForMaskedLM（batch=128 复测）
+
+- 后端：inductor + triton_experimental + 关闭 ACLGraph + 静态 shape
+- 采集类型：融合效果（debug + profiler 双开）
+- CANN：9.2.0 正式版
+- batch_size：128
+- 范围：仅 2.13 / 2.14（2.15 未跑）
+
+| PyTorch 版本 | train 加速比 | inference 加速比 | 精度 |
+| --- | ---: | ---: | --- |
+| 2.13 | 0.291x | 1.321x | pass |
+| 2.14 | 0.970x | 1.425x | pass |
+
+> batch=128 下 train 的 compile 反而慢于 eager（0.29x/0.97x）；inference 有加速（1.32x/1.43x）。
+
 ### GPT2ForSequenceClassification
 
 - 后端：inductor + triton_experimental + 关闭 ACLGraph + 静态 shape
