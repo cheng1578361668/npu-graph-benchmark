@@ -1,0 +1,164 @@
+[
+  {
+    "label": "2.13_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.13.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 201.4072844060138,
+        "median_ms": 195.4596700379625,
+        "min_ms": 194.88874997477978,
+        "max_ms": 238.41232003178447,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 151.27194639761,
+        "median_ms": 151.23644995037466,
+        "min_ms": 150.89650999289006,
+        "max_ms": 151.75870002713054,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.3314252192976073,
+    "latency_reduction_percent": 24.892514764926144,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.13_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.13.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 67.98476681578904,
+        "median_ms": 65.23840001318604,
+        "min_ms": 64.8453199537471,
+        "max_ms": 133.67692998144776,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 43.913611616007984,
+        "median_ms": 43.69951004628092,
+        "min_ms": 42.598400032147765,
+        "max_ms": 46.669110073708,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.548147927578025,
+    "latency_reduction_percent": 35.40668936175667,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.14_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.14.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 194.4867931958288,
+        "median_ms": 194.25674004014581,
+        "min_ms": 193.7205399153754,
+        "max_ms": 197.38507992587984,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 152.2725188266486,
+        "median_ms": 152.12040999904275,
+        "min_ms": 151.66364994365722,
+        "max_ms": 154.00501003023237,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.2772284499820887,
+    "latency_reduction_percent": 21.705470934817995,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.14_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.14.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 65.087182787247,
+        "median_ms": 64.99850994441658,
+        "min_ms": 64.74478996824473,
+        "max_ms": 65.70041005034,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 54.14101559203118,
+        "median_ms": 45.970009989105165,
+        "min_ms": 43.244629981927574,
+        "max_ms": 91.58454998396337,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.2021788301442011,
+    "latency_reduction_percent": 16.817700085431543,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.15_train",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.15.0/effect_train.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 212.89390839170665,
+        "median_ms": 195.21676003932953,
+        "min_ms": 194.50096995569766,
+        "max_ms": 274.35160998720676,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 152.28101841639727,
+        "median_ms": 152.2710300050676,
+        "min_ms": 151.68281993828714,
+        "max_ms": 153.6353100091219,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.398033127212017,
+    "latency_reduction_percent": 28.47093673708447,
+    "pass_accuracy_seen": true
+  },
+  {
+    "label": "2.15_infer",
+    "log": "/opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.15.0/effect_inference.log",
+    "modes": {
+      "eager": {
+        "mean_ms": 65.19827281590551,
+        "median_ms": 64.96769993100315,
+        "min_ms": 64.46640996728092,
+        "max_ms": 70.05105004645884,
+        "all_steps": 50,
+        "selected_steps": 25
+      },
+      "compile": {
+        "mean_ms": 43.15334120299667,
+        "median_ms": 42.54500998649746,
+        "min_ms": 42.33189998194575,
+        "max_ms": 47.26473009213805,
+        "all_steps": 50,
+        "selected_steps": 25
+      }
+    },
+    "start_step": 16,
+    "end_step": 40,
+    "speedup": 1.5108510951494525,
+    "latency_reduction_percent": 33.81214050739523,
+    "pass_accuracy_seen": true
+  }
+]

@@ -39,6 +39,21 @@ benchmark/
 
 > 上表为融合效果轮观测值（debug+profiler 双开），正式 E2E 加速比需双关基线；详见各模型文件夹内的归档报告。
 
+### GPT2ForSequenceClassification
+
+- 后端：inductor + triton_experimental + 关闭 ACLGraph + 静态 shape
+- 采集类型：融合效果（debug + profiler 双开）
+- CANN：9.2.0 正式版
+- batch_size：4
+
+| PyTorch 版本 | train 加速比 | inference 加速比 | 精度 |
+| --- | ---: | ---: | --- |
+| 2.13 | 1.331x | 1.548x | pass |
+| 2.14 | 1.277x | 1.202x | pass |
+| 2.15 | 1.398x | 1.511x | pass |
+
+> 上表为融合效果轮观测值（debug+profiler 双开）；inference 的 profiler 原始大文件（trace_view/db/operator/op_range）未上传，核心 kernel_details.csv 等已归档。
+
 ## 采集环境
 
 | 项 | 值 |

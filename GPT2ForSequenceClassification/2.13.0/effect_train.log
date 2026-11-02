@@ -1,0 +1,249 @@
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:13: FutureWarning: triton.language.extra.cann.extension.atan2 is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.atan2 instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.atan2")
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:35: FutureWarning: triton.language.extra.cann.extension.isfinited is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.isfinited instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.isfinited")
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/triton/language/extra/cann/extension/math_ops.py:49: FutureWarning: triton.language.extra.cann.extension.finitef is deprecated and will be removed in the next release; use triton.language.extra.cann.libdevice.finitef instead.
+  @_deprecated(replacement="triton.language.extra.cann.libdevice.finitef")
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/torch_npu/dynamo/__init__.py:182: UserWarning: Register eager implementation for the 'npu' backend of dynamo, as torch_npu was not compiled with torchair.
+  warnings.warn(
+/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/transformers/utils/generic.py:441: FutureWarning: `torch.utils._pytree._register_pytree_node` is deprecated. Please use `torch.utils._pytree.register_pytree_node` instead.
+  _torch_pytree._register_pytree_node(
+gemma model entries disabled: transformers>=4.50 required, current 4.36.0
+loading model: 0it [00:00, ?it/s][W1031 09:08:14.852640080 NPUCachingAllocator.cpp:169] Warning: The current CANN and Soc versions require processing for 32 padding size, with memory allocation. (function operator())
+loading model: 0it [00:23, ?it/s]
+npu  train GPT2ForSequenceClassification      
+learning rate: 0.01
+[W1031 09:08:15.231324780 ToKernelNpu.cpp:40] Warning: Device do not support double dtype now, dtype cast replace with float. (function operator())
+tolerance: 0.01
+[eager] step: 1 step_time: 195.6601699348539 ms loss: 1.1920928244535389e-07
+[eager] step: 2 step_time: 194.04629000928253 ms loss: 1.4901159772762185e-07
+[eager] step: 3 step_time: 194.34579997323453 ms loss: 1.4901159772762185e-07
+[eager] step: 4 step_time: 194.489200017415 ms loss: 1.1920928244535389e-07
+[eager] step: 5 step_time: 196.25738996546715 ms loss: 1.4901159772762185e-07
+[eager] step: 6 step_time: 194.7235099505633 ms loss: 1.1920928244535389e-07
+[eager] step: 7 step_time: 195.32039994373918 ms loss: 1.4901159772762185e-07
+[eager] step: 8 step_time: 195.19788993056864 ms loss: 1.7881392011531716e-07
+[eager] step: 9 step_time: 194.92664001882076 ms loss: 1.1920928244535389e-07
+[eager] step: 10 step_time: 194.7920999955386 ms loss: 1.7881392011531716e-07
+[eager] step: 11 step_time: 194.83817997388542 ms loss: 1.4901159772762185e-07
+[eager] step: 12 step_time: 195.2696399530396 ms loss: 1.4901159772762185e-07
+[eager] step: 13 step_time: 195.53617993369699 ms loss: 1.1920928244535389e-07
+[eager] step: 14 step_time: 195.34355006180704 ms loss: 1.1920928244535389e-07
+[eager] step: 15 step_time: 195.49585005734116 ms loss: 1.1920928244535389e-07
+[eager] step: 16 step_time: 195.30718005262315 ms loss: 1.7881392011531716e-07
+[eager] step: 17 step_time: 195.39501005783677 ms loss: 1.1920928244535389e-07
+[eager] step: 18 step_time: 195.23529999423772 ms loss: 1.1920928244535389e-07
+[eager] step: 19 step_time: 195.28897001873702 ms loss: 1.1920928244535389e-07
+[eager] step: 20 step_time: 195.14536997303367 ms loss: 1.1920928244535389e-07
+[eager] step: 21 step_time: 194.88874997477978 ms loss: 1.1920928244535389e-07
+[eager] step: 22 step_time: 195.0586800230667 ms loss: 1.1920928244535389e-07
+[eager] step: 23 step_time: 195.4596700379625 ms loss: 1.1920928244535389e-07
+[eager] step: 24 step_time: 195.46446995809674 ms loss: 1.4901159772762185e-07
+[eager] step: 25 step_time: 195.1452400535345 ms loss: 1.4901159772762185e-07
+[eager] step: 26 step_time: 195.0518599478528 ms loss: 1.1920928244535389e-07
+[eager] step: 27 step_time: 195.4789300216362 ms loss: 1.4901159772762185e-07
+[eager] step: 28 step_time: 195.920419995673 ms loss: 1.1920928244535389e-07
+[eager] step: 29 step_time: 195.22732007317245 ms loss: 1.1920928244535389e-07
+[eager] step: 30 step_time: 195.5111400457099 ms loss: 1.1920928244535389e-07
+[eager] step: 31 step_time: 195.66514994949102 ms loss: 1.4901159772762185e-07
+[eager] step: 32 step_time: 195.64102997537702 ms loss: 1.1920928244535389e-07
+[eager] step: 33 step_time: 196.18323992472142 ms loss: 1.1920928244535389e-07
+[eager] step: 34 step_time: 195.33233996480703 ms loss: 1.1920928244535389e-07
+[eager] step: 35 step_time: 194.93504997808486 ms loss: 1.4901159772762185e-07
+[eager] step: 36 step_time: 199.5733299991116 ms loss: 1.1920928244535389e-07
+[eager] step: 37 step_time: 214.6748600061983 ms loss: 1.1920928244535389e-07
+[eager] step: 38 step_time: 238.41232003178447 ms loss: 1.4901159772762185e-07
+[eager] step: 39 step_time: 236.93598003592342 ms loss: 1.7881392011531716e-07
+[eager] step: 40 step_time: 238.25050005689263 ms loss: 1.1920928244535389e-07
+[eager] step: 41 step_time: 237.76813002768904 ms loss: 1.4901159772762185e-07
+[eager] step: 42 step_time: 238.91307995654643 ms loss: 1.1920928244535389e-07
+[eager] step: 43 step_time: 238.83316991850734 ms loss: 1.1920928244535389e-07
+[eager] step: 44 step_time: 237.33511997852474 ms loss: 1.1920928244535389e-07
+[eager] step: 45 step_time: 237.28310002479702 ms loss: 1.4901159772762185e-07
+[eager] step: 46 step_time: 236.30876000970602 ms loss: 1.1920928244535389e-07
+[eager] step: 47 step_time: 236.56381003092974 ms loss: 1.1920928244535389e-07
+[eager] step: 48 step_time: 197.003289940767 ms loss: 1.1920928244535389e-07
+[eager] step: 49 step_time: 195.5003800103441 ms loss: 1.1920928244535389e-07
+[2026-10-31 09:08:37] [INFO] [3072714] profiler.py: Start parsing profiling data in sync mode at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.13.0/effect_train/profile/GPT2ForSequenceClassification/eager/hostname-mabf6.foreman.pxe_3071611_20261031090826931_ascend_pt
+|/-\|/-\|/-\|/-\|/-\|[2026-10-31 09:09:00] [INFO] [3072728] profiler.py: CANN profiling data parsed in a total time of 0:00:22.100942
+/-\|/-\|/-\|[2026-10-31 09:09:12] [INFO] [3072714] profiler.py: All profiling data parsed in a total time of 0:00:34.440508
+[eager] step: 50 step_time: 195.1107899658382 ms
+[eager] summary [16-40] total steps time: 5035.18 ms, avg step time: 201.41 ms
+W1031 09:09:54.360000 3071611 torch/_inductor/utils.py:1953] [0/0] Not enough SMs to use max_autotune_gemm mode
+2026-10-31 09:10:03,407 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:03,408 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:03,408 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:03,408 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:04,882 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:04,882 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:04,882 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:04,882 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:06,321 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:06,321 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:06,321 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:06,321 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:07,760 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:07,760 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:07,760 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:07,760 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:09,195 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:09,195 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:09,195 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:09,195 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:10,602 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:10,602 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:10,602 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:10,602 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:12,035 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:12,035 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:12,035 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:12,035 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:13,460 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:13,460 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:13,460 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:13,460 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:14,906 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:14,906 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:14,906 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:14,907 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:16,338 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:16,338 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:16,338 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:16,338 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:17,792 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:17,792 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:17,792 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:17,792 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+2026-10-31 09:10:19,052 - WARNING - [tile-contract] unhealthy-unfixable: load '768 + x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:10:19,052 - WARNING - [tile-contract] unhealthy-unfixable: load '768 + x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:10:19,052 - WARNING - [tile-contract] unhealthy-unfixable: load '768 + x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:10:19,052 - WARNING - [tile-contract] unhealthy-unfixable: load '768 + x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:10:19,052 - WARNING - [tile-contract] unhealthy-unfixable: load '768 + x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:10:19,246 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=1024
+2026-10-31 09:10:19,246 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=2048
+2026-10-31 09:10:19,246 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=4096
+2026-10-31 09:10:19,246 - WARNING - [tile-contract] unhealthy-unfixable: load 'x2 + 1024*y0 + 1048576*y1' -> no-rescue at XB=8192
+W1031 09:23:15.931000 3071611 torch/_inductor/debug.py:545] [0/0] GPT2ForSequenceClassification__0_forward_1 debug trace: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.13.0/effect_train/debug/torch_compile_debug/run_2026_10_31_09_09_27_005833-pid_3071611/torchinductor/GPT2ForSequenceClassification__0_forward_1.0
+2026-10-31 09:23:16,409 - WARNING - [AUTOTUNE] mspti device-time bench unavailable (mspti python package not importable); falling back to event-based autotune. Event timing is unreliable for small NPU kernels (host dispatch cost dwarfs device compute), so autotune may pick a suboptimal config.
+2026-10-31 09:24:00,975 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:00,975 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:00,975 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:00,976 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:00,976 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:02,373 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:02,373 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:02,373 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:02,373 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:02,373 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:03,743 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:03,744 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:03,744 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:03,744 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:03,744 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:05,114 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:05,114 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:05,114 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:05,114 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:05,114 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:06,507 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:06,507 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:06,507 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:06,508 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:06,508 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:07,893 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:07,893 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:07,893 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:07,893 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:07,893 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:09,278 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:09,278 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:09,278 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:09,278 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:09,278 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:10,663 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:10,664 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:10,664 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:10,664 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:10,664 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:12,040 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:12,040 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:12,041 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:12,041 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:12,041 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:13,422 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:13,422 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:13,422 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:13,422 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:13,422 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:14,795 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:14,796 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:14,796 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:14,796 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:14,796 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+2026-10-31 09:24:16,187 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=64
+2026-10-31 09:24:16,188 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=1024
+2026-10-31 09:24:16,188 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=2048
+2026-10-31 09:24:16,188 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=4096
+2026-10-31 09:24:16,188 - WARNING - [tile-contract] unhealthy-unfixable: load 'x3 + 64*y1 + 2304*y0 + 2359296*y2' -> no-rescue at XB=8192
+W1031 09:31:16.563000 3071611 torch/_inductor/debug.py:545] [0/0] GPT2ForSequenceClassification__0_backward_3 debug trace: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.13.0/effect_train/debug/torch_compile_debug/run_2026_10_31_09_09_27_005833-pid_3071611/torchinductor/GPT2ForSequenceClassification__0_backward_3.1
+V1031 09:31:38.227000 3071611 torch/_dynamo/guards.py:5396] [0/1] [__recompiles] Recompiling function forward in /opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py:1397
+V1031 09:31:38.227000 3071611 torch/_dynamo/guards.py:5396] [0/1] [__recompiles]     triggered by the following guard failure(s):
+V1031 09:31:38.227000 3071611 torch/_dynamo/guards.py:5396] [0/1] [__recompiles]     - 0/0: self.config.problem_type is None                         # if self.config.problem_type is None:  # transformers/models/gpt2/modeling_gpt2.py:1468 in forward
+V1031 09:31:38.227000 3071611 torch/_dynamo/guards.py:5396] [0/1] [__recompiles]     - User stack trace:
+V1031 09:31:38.227000 3071611 torch/_dynamo/guards.py:5396] [0/1] [__recompiles]     -   File "/opt/npu-envs/tnpu-2.13.0/lib/python3.12/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1468, in forward
+V1031 09:31:38.227000 3071611 torch/_dynamo/guards.py:5396] [0/1] [__recompiles]     -     if self.config.problem_type is None:
+[compile] step: 1 step_time: 59151.04343008716 ms loss: 1.1920928244535389e-07
+[compile] step: 2 step_time: 157.4664000654593 ms loss: 1.4901159772762185e-07
+[compile] step: 3 step_time: 151.4461999759078 ms loss: 1.4901159772762185e-07
+[compile] step: 4 step_time: 151.08871995471418 ms loss: 1.1920928244535389e-07
+[compile] step: 5 step_time: 151.0275799082592 ms loss: 1.4901159772762185e-07
+[compile] step: 6 step_time: 150.99097997881472 ms loss: 1.1920928244535389e-07
+[compile] step: 7 step_time: 151.477099978365 ms loss: 1.4901159772762185e-07
+[compile] step: 8 step_time: 151.77791996393353 ms loss: 1.7881392011531716e-07
+[compile] step: 9 step_time: 151.02609002497047 ms loss: 1.1920928244535389e-07
+[compile] step: 10 step_time: 150.9297500597313 ms loss: 1.7881392011531716e-07
+[compile] step: 11 step_time: 151.6549700172618 ms loss: 1.4901159772762185e-07
+[compile] step: 12 step_time: 151.6979499720037 ms loss: 1.4901159772762185e-07
+[compile] step: 13 step_time: 151.37381001841277 ms loss: 1.1920928244535389e-07
+[compile] step: 14 step_time: 151.1997499037534 ms loss: 1.1920928244535389e-07
+[compile] step: 15 step_time: 151.29951003473252 ms loss: 1.1920928244535389e-07
+[compile] step: 16 step_time: 151.48664999287575 ms loss: 1.7881392011531716e-07
+[compile] step: 17 step_time: 151.36951999738812 ms loss: 1.1920928244535389e-07
+[compile] step: 18 step_time: 151.3436200330034 ms loss: 1.1920928244535389e-07
+[compile] step: 19 step_time: 151.33265999611467 ms loss: 1.1920928244535389e-07
+[compile] step: 20 step_time: 151.14780003204942 ms loss: 1.1920928244535389e-07
+[compile] step: 21 step_time: 151.2830499559641 ms loss: 1.1920928244535389e-07
+[compile] step: 22 step_time: 151.41144988592714 ms loss: 1.1920928244535389e-07
+[compile] step: 23 step_time: 151.59290994051844 ms loss: 1.1920928244535389e-07
+[compile] step: 24 step_time: 151.44921001046896 ms loss: 1.4901159772762185e-07
+[compile] step: 25 step_time: 151.62955003324896 ms loss: 1.4901159772762185e-07
+[compile] step: 26 step_time: 151.75870002713054 ms loss: 1.1920928244535389e-07
+[compile] step: 27 step_time: 151.17561002261937 ms loss: 1.4901159772762185e-07
+[compile] step: 28 step_time: 151.1158699868247 ms loss: 1.1920928244535389e-07
+[compile] step: 29 step_time: 151.21278003789485 ms loss: 1.1920928244535389e-07
+[compile] step: 30 step_time: 151.23045002110302 ms loss: 1.1920928244535389e-07
+[compile] step: 31 step_time: 151.3159800088033 ms loss: 1.4901159772762185e-07
+[compile] step: 32 step_time: 151.23644995037466 ms loss: 1.1920928244535389e-07
+[compile] step: 33 step_time: 151.21171006467193 ms loss: 1.1920928244535389e-07
+[compile] step: 34 step_time: 150.98120993934572 ms loss: 1.1920928244535389e-07
+[compile] step: 35 step_time: 150.96050000283867 ms loss: 1.4901159772762185e-07
+[compile] step: 36 step_time: 150.89650999289006 ms loss: 1.1920928244535389e-07
+[compile] step: 37 step_time: 151.0045100003481 ms loss: 1.1920928244535389e-07
+[compile] step: 38 step_time: 150.97229008097202 ms loss: 1.4901159772762185e-07
+[compile] step: 39 step_time: 151.19060990400612 ms loss: 1.7881392011531716e-07
+[compile] step: 40 step_time: 151.48906002286822 ms loss: 1.1920928244535389e-07
+[compile] step: 41 step_time: 151.36615000665188 ms loss: 1.4901159772762185e-07
+[compile] step: 42 step_time: 151.0025099851191 ms loss: 1.1920928244535389e-07
+[compile] step: 43 step_time: 151.31194004788995 ms loss: 1.1920928244535389e-07
+[compile] step: 44 step_time: 152.3355400422588 ms loss: 1.1920928244535389e-07
+[compile] step: 45 step_time: 152.24574995227158 ms loss: 1.4901159772762185e-07
+[compile] step: 46 step_time: 151.7189999576658 ms loss: 1.1920928244535389e-07
+[compile] step: 47 step_time: 151.2854100437835 ms loss: 1.1920928244535389e-07
+[compile] step: 48 step_time: 151.1559000937268 ms loss: 1.1920928244535389e-07
+[compile] step: 49 step_time: 151.19383996352553 ms loss: 1.1920928244535389e-07
+[2026-10-31 09:32:45] [INFO] [3131179] profiler.py: Start parsing profiling data in sync mode at: /opt/ascend_pytorch/pytorch/benchmarks/torchbench/collect/GPT2ForSequenceClassification/2.13.0/effect_train/profile/GPT2ForSequenceClassification/compile/hostname-mabf6.foreman.pxe_3071611_20261031093138145_ascend_pt
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-[2026-10-31 09:35:36] [INFO] [3131194] profiler.py: CANN profiling data parsed in a total time of 0:02:51.076559
+\|/-\|[2026-10-31 09:35:43] [INFO] [3131179] profiler.py: All profiling data parsed in a total time of 0:02:57.757169
+[compile] step: 50 step_time: 151.0755099589005 ms
+[compile] summary [16-40] total steps time: 3781.80 ms, avg step time: 151.27 ms
+pass_accuracy
